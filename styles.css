@@ -1,4 +1,32 @@
-/* Write your CSS here! */
-h1{
-    color: crimson;
+
+ body {
+      
+      display: block;
+      margin: 100px;
+      padding: 1rem;
+  }
+
+  
+    #HOOD {
+  color: cornflowerblue;
+    }
+.colorBox {
+    
+        width: 800px;
+        height: 100px;
+        background-color: crimson;
+        
 }
+#mainArticle {
+color:whitesmoke;
+}
+  #Just {
+    color: blue;
+}
+img {
+    opacity: 0.1;
+  }
+  
+  img:hover {
+    opacity: 10.0;
+  }
