@@ -1,1 +1,76 @@
-/* Write your CSS here! */
+
+ body {
+      
+      display: block;
+      margin: 100px;
+      padding: 1rem;
+  }
+
+  
+    #HOOD {
+  color: cornflowerblue;
+    }
+.colorBox {
+    
+        width: 800px;
+        height: 10px;
+        background-color: crimson;
+        
+}
+#mainArticle {
+color:whitesmoke;
+}
+  #Just {
+    color: blue;
+}
+img {
+    opacity: 0.1;
+  }
+  
+  img:hover {
+    opacity: 10.0;
+  }
+  #mainBody{
+    background-color: forestgreen;
+  }
+  .button {
+    position: relative;
+    padding: 8px 16px;
+    background: #3787f0;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button:active {
+    background: red;
+}
+.button__text {
+    font: bold 20px 'Quicksand', san-serif;
+    color: #0a9e4d;
+    transition: all 0.2s;  
+}
+.button__text:hover{
+  transform: rotate(10turn);
+}
+
+.button--loading::after {
+    content: "hover";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #8d28cf;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+}
+@keyframes button-loading-spinner {
+    from { transform: rotate(0turn);}
+
+    to {transform: rotate(1turn);}
+}
